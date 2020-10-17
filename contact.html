@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+        <title>Cemento - Contact</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" class="uk-container uk-navbar-container uk-container-expand">
+    <nav class="uk-navbar" uk-navbar>
+
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="index.html">
+              <img class="logo" data-src="images/logo-black.png" alt="Cemento" uk-img>
+            </a>
+        </div>
+
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a href="#">Products</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="mapei.html">Mapei</a></li>
+                            <li><a href="ardex.html">Ardex</a></li>
+                            <li><a href="microcement.html">Microcement</a></li>
+                            <li><a href="stucco.html">Stucco Wall Finishes</a></li>
+                            <li><a href="designer.html">Designer Tiles</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="custom.html">Custom Finishes</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="uk-active"><a href="#">Contact Us</a></li>
+            </ul>
+
+            <!-- Mobile Nav Toggle -->
+            <a class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle href="#off-canvas-nav"></a>
+
+        </div>
+    </nav>
+  </div>
+
+  <!-- Off Canvas Menu -->
+  <div id="off-canvas-nav" uk-offcanvas="overlay: true; mode: push; flip:true">
+      <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+          <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+              <li><a href="index.html">Home</a></li>
+              <li"><a href="about.html">About</a></li>
+              <li class="uk-nav-divider" style="margin: 15px 0"></li>
+              <li class="uk-nav-header">Products</li>
+              <li><a href="mapei.html">Mapei</a></li>
+              <li><a href="ardex.html">Ardex</a></li>
+              <li><a href="microcement.html">Microcement</a></li>
+              <li><a href="stucco.html">Stucco Wall Finishes</a></li>
+              <li><a href="designer.html">Designer Tiles</a></li>
+              <li><a href="custom.html">Custom Finishes</a></li>
+              <li class="uk-nav-divider" style="margin: 15px 0"></li>
+              <li class="uk-active><a href="#">Contact Us</a></li>
+          </ul>
+
+      </div>
+  </div>
+
+  <!-- Content -->
+
+
+  <div class="uk-container uk-margin-large">
+
+    <div class="uk-margin-large">
+      <h1>Drop Your Message</h1>
+      <p>We will get back to your queries as soon as we can.</p>
+    </div>
+
+    <form class="uk-grid-medium uk-form-stacked" uk-grid>
+
+      <div class="uk-width-1-2@s">
+          <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-text">Name *</label>
+              <div class="uk-form-controls">
+                  <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+              </div>
+          </div>
+      </div>
+
+      <div class="uk-width-1-2@s">
+          <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-text">Email *</label>
+              <div class="uk-form-controls">
+                  <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+              </div>
+          </div>
+      </div>
+
+      <div class="uk-width-1-2@s">
+          <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-text">Contact Number</label>
+              <div class="uk-form-controls">
+                  <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+              </div>
+          </div>
+      </div>
+
+      <div class="uk-width-1-2@s">
+          <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-text">Company</label>
+              <div class="uk-form-controls">
+                  <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+              </div>
+          </div>
+      </div>
+      <div class="uk-width-1-1">
+          <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-select">Subject</label>
+              <div class="uk-form-controls">
+                  <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+              </div>
+      </div>
+
+      <div class="uk-width-1-1">
+          <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-select">Message</label>
+              <div class="uk-form-controls">
+                  <textarea class="uk-textarea" rows="5" placeholder=""></textarea>
+              </div>
+      </div>
+
+    </form>
+
+    <a href="#"><button class="uk-button uk-button-secondary">Submit</button></a>
+
+    </div>
+    </div>
+
+  </div>
+
+<!-- Footer -->
+  <div class="footer-position">
+          <div class="uk-container uk-navbar-container uk-container-expand">
+            <nav class="uk-navbar" uk-navbar>
+
+                <div class="uk-navbar-left">
+                      <p style="margin:20px 0">© 2020 Airbnb, Inc. All rights reserved</p>
+                </div>
+
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                      <li><a href="https://www.facebook.com/CementoMalaysia" target="_blank"><img class="logo" style="height:24px" data-src="images/fb.svg" alt="Cemento Facebook" uk-img></a></li>
+                      <li><a href="https://www.instagram.com/cementomalaysia/" target="_blank"><img class="logo" style="height:24px" data-src="images/insta.svg" alt="Cemento Instagram" uk-img></a></li>
+                </ul>
+            </nav>
+          </div>
+
+          </div>
+    </div>
+
+</body>
+
+</html>
