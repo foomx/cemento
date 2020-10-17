@@ -12520,3 +12520,18 @@ iframe.uk-cover {
     page-break-after: avoid;
   }
 }
+
+/* ========================================================================
+  Custom
+ ========================================================================== */
+
+.testimonial-card {
+  border-radius: 20px;
+}
+
+.img-crop {
+  width:100px;
+  height:100px;
+  background-position:center;
+  border-radius:50%;
+}
